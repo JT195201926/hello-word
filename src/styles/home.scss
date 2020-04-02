@@ -1,0 +1,21 @@
+.banner{
+  height: 160px;
+  overflow: hidden;
+  & img{
+    height: 100%;
+    width: 100%;
+  }
+  .search{
+    color: yellow;
+    height: 60px;
+    width: 90%;
+    //background: white;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1000;
+    font-size: 30px;
+    //opacity: 0.6;
+    line-height: 60px;
+  }
+}
